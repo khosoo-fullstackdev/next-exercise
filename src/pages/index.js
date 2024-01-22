@@ -6,7 +6,7 @@ export default function Home() {
     console.log(data.results[0].name.first);
   }
   getData();
-  return <div>hello</div>;
+  return <div>hi</div>;
 }
 const data = {
   result: {},
